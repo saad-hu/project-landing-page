@@ -68,3 +68,45 @@ a {
     width: 400px;
     height: auto;
 }
+
+/*info section css*/
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-images-text-section {
+    display: flex;
+    gap: 30px;
+}
+
+.info-image-text-card {
+    max-width: 150px;
+    text-align: center; /*this center aligns the text as well as the image*/
+
+    /* we can use this code as well to center the image
+    display: flex;    
+    flex-direction: column;
+    align-items: center; */
+}
+
+.info-image {
+    width: 125px;
+    height: 125px;
+    border: #3882F6 4px solid;
+    border-radius: 10px;
+}
+
+.info-text {
+    color: rgb(104, 103, 103);
+}
+
