@@ -4,6 +4,8 @@ body {
     padding: 0px;
 }
 
+/*header css*/
+
 .header-logo {
     width: 60px;
     height: auto;
@@ -19,6 +21,7 @@ ul.links {
 
 a {
     text-decoration: none; /*removes underline*/
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -28,4 +31,40 @@ a {
     align-items: center;
     padding: 5px 20%;
     background-color: #1F2937;
+}
+
+/* hero section css */
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    padding: 65px 230px;
+    gap: 50px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px; /*headings have some top and bottom margin. we donot want that in this case*/
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.hero-image {
+    width: 400px;
+    height: auto;
 }
