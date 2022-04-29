@@ -1,6 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px;
+    margin: 0px; /*body initially has a margin of 8px*/
     padding: 0px;
 }
 
@@ -10,7 +10,7 @@ body {
 }
 
 ul.links {
-    list-style-type: none;
+    list-style-type: none; /* removes bullets*/
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -18,7 +18,7 @@ ul.links {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /*removes underline*/
     color: #E5E7EB;
 }
 
