@@ -75,13 +75,15 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .info-heading {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 45px; /*the orginal margin bottim of heading(24ish px) was looking less*/
 }
 
 .info-images-text-section {
