@@ -64,6 +64,11 @@ a {
     border-radius: 5px;
 }
 
+.hero-button:hover {
+    background-color: #0c51be;
+    color: white;
+}
+
 .hero-image {
     width: 400px;
     height: auto;
@@ -166,6 +171,11 @@ a {
     padding: 4px 25px;
     font-size: 15px;
     font-weight: 800;
+}
+
+.call-button:hover {
+    background-color: white;
+    color: #0c51be;
 }
 
 .footer {
