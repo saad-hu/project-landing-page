@@ -131,3 +131,39 @@ a {
     font-size: 18px;
     font-weight: 900;
 }
+
+/*call for action section*/
+
+.call-section {
+    padding: 70px 200px;
+}
+
+.call-text-button-container {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call-heading {
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.call-text {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.call-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+    padding: 4px 25px;
+    font-size: 15px;
+    font-weight: 800;
+}
