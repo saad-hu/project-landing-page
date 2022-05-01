@@ -167,3 +167,12 @@ a {
     font-size: 15px;
     font-weight: 800;
 }
+
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
